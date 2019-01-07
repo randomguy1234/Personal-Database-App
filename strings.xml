@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Personal Database</string>
+    <string name="add_cardlist">Add to Cardlist</string>
+    <string name="delete_cards1">Delete Cards</string>
+    <string name="change_cardlist">View/Edit Cardlist</string>
+    <string name="search_button">Search in Cardlist</string>
+</resources>
