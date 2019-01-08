@@ -6,4 +6,43 @@
     android:layout_height="match_parent"
     tools:context=".DeleteActivity">
 
+    <Button
+        android:id="@+id/button_dr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="170dp"
+        android:text="Delete Row(s)"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/button_da"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewDelete" />
+
+    <Button
+        android:id="@+id/button_da"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="170dp"
+        android:text="Delete All"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/button_dr"
+        app:layout_constraintTop_toBottomOf="@+id/textViewDelete" />
+
+    <TextView
+        android:id="@+id/textViewDelete"
+        android:layout_width="198dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="246dp"
+        android:layout_marginLeft="246dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="239dp"
+        android:layout_marginRight="239dp"
+        android:text="@string/delete_desc"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </android.support.constraint.ConstraintLayout>

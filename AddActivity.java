@@ -21,16 +21,6 @@ public class AddActivity extends AppCompatActivity
         Button btn2= findViewById(R.id.clear1);
         Button btn3= findViewById(R.id.effects1);
 
-        TextView tv1= findViewById(R.id.textView1);
-        TextView tv2= findViewById(R.id.textView2);
-        TextView tv3= findViewById(R.id.textView3);
-        TextView tv4= findViewById(R.id.textView4);
-        TextView tv5= findViewById(R.id.textView5);
-        TextView tv6= findViewById(R.id.textView6);
-        TextView tv7= findViewById(R.id.textView7);
-        TextView tv8= findViewById(R.id.textView8);
-        TextView tv9= findViewById(R.id.textView9);
-
         EditText et1= findViewById(R.id.editText1);
         EditText et2= findViewById(R.id.editText2);
         EditText et3= findViewById(R.id.editText3);

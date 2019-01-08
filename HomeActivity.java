@@ -15,6 +15,8 @@ public class HomeActivity extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
 
+        //set DatabaseName activity to open 1st if there is no database
+
         Button add1= findViewById(R.id.add_button1);
         Button delete1= findViewById(R.id.delete_button1);
         Button change1= findViewById(R.id.change_button1);

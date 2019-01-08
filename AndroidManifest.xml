@@ -20,41 +20,51 @@
         <activity
             android:name=".AddActivity"
             android:parentActivityName=".HomeActivity"
-            android:screenOrientation="landscape">
+            android:screenOrientation="landscape"
+            android:label="@string/add_cardlist">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".HomeActivity" />
         </activity>
         <activity
             android:name=".DeleteActivity"
-            android:parentActivityName=".HomeActivity">
+            android:parentActivityName=".HomeActivity"
+            android:screenOrientation="landscape"
+            android:label="@string/delete_cards1">
+
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".HomeActivity" />
         </activity>
         <activity
             android:name=".DatabaseActivity"
-            android:parentActivityName=".HomeActivity">
+            android:parentActivityName=".HomeActivity"
+            android:screenOrientation="landscape"
+            android:label="@string/change_cardlist">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".HomeActivity" />
         </activity>
         <activity
             android:name=".SearchActivity"
-            android:parentActivityName=".HomeActivity">
+            android:parentActivityName=".HomeActivity"
+            android:screenOrientation="landscape"
+            android:label="@string/search_button">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".HomeActivity" />
         </activity>
         <activity android:name=".DatabaseNameActivity"
-            android:parentActivityName=".HomeActivity">
+            android:parentActivityName=".HomeActivity"
+            android:screenOrientation="landscape">
         <meta-data
             android:name="android.support.PARENT_ACTIVITY"
             android:value=".HomeActivity" />
         </activity>
         <activity android:name=".EffectsActivity"
             android:parentActivityName=".HomeActivity"
-            android:screenOrientation="landscape">
+            android:screenOrientation="landscape"
+            android:label="@string/effects_list">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".HomeActivity" />

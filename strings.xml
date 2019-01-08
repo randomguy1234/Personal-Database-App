@@ -1,7 +1,12 @@
 <resources>
-    <string name="app_name">Personal Database</string>
+    <string name="app_name">Personal TC Database</string>
     <string name="add_cardlist">Add to Cardlist</string>
     <string name="delete_cards1">Delete Cards</string>
     <string name="change_cardlist">View/Edit Cardlist</string>
-    <string name="search_button">Search in Cardlist</string>
+    <string name="search_button">Search within Cardlist</string>
+    <string name="effects_list">Effects Guide</string>
+    <string name="effects_explain">Each Effect is divided into General Effects and Effects Targets.
+        You combine the 2 to get a single effect. Below are a list of effects.</string>
+    <string name="delete_desc">What would you like to Delete?</string>
+    <string name="search_text">How do you want to search?</string>
 </resources>
