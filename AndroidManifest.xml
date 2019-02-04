@@ -55,11 +55,8 @@
                 android:value=".HomeActivity" />
         </activity>
         <activity android:name=".DatabaseNameActivity"
-            android:parentActivityName=".HomeActivity"
             android:screenOrientation="landscape">
-        <meta-data
-            android:name="android.support.PARENT_ACTIVITY"
-            android:value=".HomeActivity" />
+
         </activity>
         <activity android:name=".EffectsActivity"
             android:parentActivityName=".HomeActivity"

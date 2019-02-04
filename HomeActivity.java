@@ -1,13 +1,17 @@
 package com.example.selfapp.personaldatabase;
 
 import android.content.Intent;
+import android.database.sqlite.SQLiteDatabase;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Toast;
 
 public class HomeActivity extends AppCompatActivity
 {
+    DatabaseHelper db;
+    Button add1, delete1, view1, search1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState)
@@ -15,12 +19,15 @@ public class HomeActivity extends AppCompatActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
 
-        //set DatabaseName activity to open 1st if there is no database
+        db= new DatabaseHelper(this);
 
-        Button add1= findViewById(R.id.add_button1);
-        Button delete1= findViewById(R.id.delete_button1);
-        Button change1= findViewById(R.id.change_button1);
-        Button search1= findViewById(R.id.search_button1);
+        /*Toast toast= Toast.makeText(getApplicationContext(),"Welcome to Main Menu",Toast.LENGTH_LONG);
+        toast.show();*/
+
+        add1= findViewById(R.id.add_button1);
+        delete1= findViewById(R.id.delete_button1);
+        view1= findViewById(R.id.change_button1);
+        search1= findViewById(R.id.search_button1);
 
         //default layout of app is Landscape, may change in future
 
@@ -42,7 +49,7 @@ public class HomeActivity extends AppCompatActivity
             }
         });
 
-        change1.setOnClickListener(new View.OnClickListener() {
+        view1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 //go to Database Activity
